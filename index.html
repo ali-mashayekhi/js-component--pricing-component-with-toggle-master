@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Custom font family -->
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
 
-  Our Pricing
-  Annually
-  Monthly
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <section class="section-pricing">
+      <div class="pricing">
+        <header class="header-box">
+          <h2 class="secondary-title">Our Pricing</h2>
+          <p class="pricing-description">
+            <span> Annually</span>
+            <span>
+              <input id="toggle" class="toggle-input" type="checkbox"></input>
+              <label for="toggle" class="toggle-btn"></label>
+            </span>
+            <span>Monthly</span>
+          </p>
+        </header>
+        <div class="pricing-card-box">
+          <div class="pricing-card">
+            <h3 class="card-title bottom-line">
+              Basic <p class="price-box"> <span class="price-sign">&dollar;</span>  <span class="card-price"> 19.99</span></p>
+            </h3>
+            <ul class="card-items">
+              <li class="bottom-line">500 GB Storage</li>
+              <li class="bottom-line">2 Users Allowed</li>
+              <li class="bottom-line">Send up to 3 GB</li>
+            </ul>
+            <button class="card-btn">Learn more</button>
+          </div>
+          <div class="pricing-card pricing-card--main">
+            <h3 class="card-title">
+              Professional <p class="price-box"> <span class="price-sign">&dollar;</span> <span class="card-price"> 24.99</span></p>
+            </h3>
+            <ul class="card-items">
+              <li>1 TB Storage</li>
+              <li>5 Users Allowed</li>
+              <li>Send up to 10 GB</li>
+            </ul>
+            <button class="card-btn">Learn More</button>
+          </div>
+          <div class="pricing-card">
+            <h3 class="card-title">
+              Master <p class="price-box"><span class="price-sign">&dollar;</span><span class="card-price"> 39.99</span></p> 
+            </h3>
+            <ul class="card-items">
+              <li>2 TB Storage</li>
+              <li>10 Users Allowed</li>
+              <li>Send up to 20 GB</li>
+            </ul>
+            <button class="card-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
-
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+    &dollar;199.99 &dollar;249.99 &dollar;399.99
+  </body>
 </html>
