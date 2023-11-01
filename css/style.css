@@ -73,10 +73,6 @@ body {
   cursor: pointer;
 }
 
-.toggle-input:checked + .toggle-btn {
-  background: hsla(236, 72%, 79%, 0.79);
-}
-
 .toggle-btn::after {
   content: "";
   position: absolute;
@@ -91,6 +87,10 @@ body {
 }
 .toggle-input:checked + .toggle-btn::after {
   left: 2.8rem;
+}
+
+.toggle-input:active + .toggle-btn {
+  background: hsla(236, 72%, 79%, 0.79);
 }
 
 .pricing-card {
