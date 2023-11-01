@@ -1,0 +1,37 @@
+/*******************************************/
+/*** For screen size larger than 600px *****/
+/*******************************************/
+
+@media (min-width: 37.5em) {
+  html {
+    font-size: 57.5%;
+  }
+  .section-pricing {
+    background: url(../images/bg-top.svg), url(../images/bg-bottom.svg), #f6f6fe;
+    background-position: top right, bottom left;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .pricing {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+  }
+
+  .pricing-card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing-card--main {
+    width: 104%;
+    height: 104%;
+    transform: translate(-2%, -5%);
+  }
+}

@@ -28,7 +28,7 @@ body {
 
 .section-pricing {
   padding: 6.4rem 0;
-  background: url(images/bg-top.svg) #f6f6fe;
+  background: url(../images/bg-top.svg) #f6f6fe;
   background-position: top -4rem right -19rem;
   background-repeat: no-repeat;
 }
@@ -73,6 +73,10 @@ body {
   cursor: pointer;
 }
 
+.toggle-input:checked + .toggle-btn {
+  background: hsla(236, 72%, 79%, 0.79);
+}
+
 .toggle-btn::after {
   content: "";
   position: absolute;
@@ -81,12 +85,12 @@ body {
   border-radius: 50%;
   background-color: #fff;
   top: 0.4rem;
-  left: 2.8rem;
+  left: 0.4rem;
   transition: all 0.5s;
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.05);
 }
 .toggle-input:checked + .toggle-btn::after {
-  left: 0.4rem;
+  left: 2.8rem;
 }
 
 .pricing-card {
@@ -94,7 +98,7 @@ body {
   padding: 3.2rem;
   margin-bottom: 3.6rem;
   border-radius: 11px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-title {
@@ -150,7 +154,20 @@ body {
   border-radius: 9px;
   padding: 1.6rem 0;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-btn:hover {
+  color: #696fdd;
+  box-shadow: inset 0 0 0 1px #696fdd;
+}
+
+.card-btn:hover,
+.pricing-card--main .card-btn:hover {
+  background: transparent;
 }
 
 .pricing-card--main {
@@ -166,6 +183,11 @@ body {
 .pricing-card--main .card-btn {
   background: #fff;
   color: #696fdd;
+}
+
+.pricing-card--main .card-btn:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
 }
 
 /****************************/
