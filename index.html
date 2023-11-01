@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/query.css" />
 
+    <!-- Custom scripts -->
+    <script defer src="./js/script.js"></script>
+
     <title>Frontend Mentor | [Challenge Name Here]</title>
   </head>
   <body>
@@ -29,14 +32,14 @@
           <p class="pricing-description">
             <span> Annually</span>
             <span>
-              <input id="toggle" class="toggle-input" type="checkbox"></input>
+              <input id="toggle" class="toggle-input" type="checkbox" value="annually"></input>
               <label for="toggle" class="toggle-btn"></label>
             </span>
             <span>Monthly</span>
           </p>
         </header>
         <div class="pricing-card-box">
-          <div class="pricing-card">
+          <div class="pricing-card basic">
             <h3 class="card-title bottom-line">
               Basic <p class="price-box"> <span class="price-sign">&dollar;</span>  <span class="card-price"> 199.99</span></p>
             </h3>
@@ -47,7 +50,7 @@
             </ul>
             <button class="card-btn">Learn more</button>
           </div>
-          <div class="pricing-card pricing-card--main">
+          <div class="pricing-card pricing-card--main professional">
             <h3 class="card-title">
               Professional <p class="price-box"> <span class="price-sign">&dollar;</span> <span class="card-price"> 249.99</span></p>
             </h3>
@@ -58,7 +61,7 @@
             </ul>
             <button class="card-btn">Learn More</button>
           </div>
-          <div class="pricing-card">
+          <div class="pricing-card master">
             <h3 class="card-title">
               Master <p class="price-box"><span class="price-sign">&dollar;</span><span class="card-price"> 399.99</span></p> 
             </h3>
