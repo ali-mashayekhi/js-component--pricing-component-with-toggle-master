@@ -8,7 +8,7 @@ This project is made by only html and css and vanilla javascript so you just nee
 
 ## Overview
 
-<img src="design/screenshot-desktop.png" width="80%">
+<img src="design/screenshot-desktop.png" width="80%" text-align="center">
 
 <img src="design/screenshot-mobile-1.png" width="35%" text-align="center"> <img src="design/screenshot-mobile-2.png" width="35%" text-align="center">
 
