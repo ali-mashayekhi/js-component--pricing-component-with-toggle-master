@@ -9,7 +9,8 @@ This project is made by only html and css and vanilla javascript so you just nee
 ## Overview
 
 <img src="design/screenshot-desktop.png" width="80%">
-<img src="design/screenshot-mobile-1.png" width="35%">  <img src="design/screenshot-mobile-2.png" width="35%">
+
+<img src="design/screenshot-mobile-1.png" width="35%" text-align="center"> <img src="design/screenshot-mobile-2.png" width="35%" text-align="center">
 
 - [Live-Demo](https://ali-pricing-component-with-toggle.netlify.app/)
 - [Solution URL](https://www.frontendmentor.io/solutions/introcomponentwithsignupformmaster-cUQ0TDtHiO)
