@@ -22,6 +22,10 @@ body {
   border-bottom: 1px solid rgba(179, 181, 198, 0.5);
 }
 
+.professional .bottom-line {
+  border-bottom-color: #ffffff9e;
+}
+
 /****************************/
 /* PRICING SECTION */
 /****************************/
