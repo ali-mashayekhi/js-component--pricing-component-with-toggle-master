@@ -19,7 +19,7 @@ This project is made by only html and css and vanilla javascript so you just nee
 ### Links
 
 - [Live-Demo](https://ali-pricing-component-with-toggle.netlify.app/)
-- [Solution URL](https://www.frontendmentor.io/solutions/introcomponentwithsignupformmaster-cUQ0TDtHiO)
+- [Solution URL](https://www.frontendmentor.io/solutions/pricingcomponentwithtogglemaster-Y8ufmSVfcC)
 
 ### Built with
 
