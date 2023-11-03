@@ -63,6 +63,11 @@ body {
   gap: 2.8rem;
 }
 
+.pricing-description button {
+  border: none;
+  background-color: transparent;
+}
+
 .toggle-input {
   display: none;
 }
